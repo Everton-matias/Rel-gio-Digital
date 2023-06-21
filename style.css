@@ -2,35 +2,36 @@
     font-family: 'Roboto';
 }
 
-html,
 body {
-    /* height: 100%; */
-}
-
-body {
-    display: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    background-color: #DFF1F8;
 }
 
 body.darkModeActivate {
     background-color: #282828;
-    color: aliceblue;
+    color: #ffff;
 }
-
-body
 
 nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.2rem;
+    padding-top: 3em;
 }
 
-h1 {
+section {
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+    height: 100%;
+}
+
+.time {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 144px;
+    font-size: 10rem;
     font-weight: 300;
 }
