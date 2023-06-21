@@ -1,3 +1,13 @@
+const temaClaro = document.querySelector('#claro')
+const temaEscuro = document.querySelector('#escuro')
+temaEscuro.addEventListener('click', ()=> {
+    document.body.classList.add('darkModeActivate')
+})
+
+temaClaro.addEventListener('click', ()=> {
+    document.body.classList.remove('darkModeActivate')
+})
+
 const currentTime = () => {
     const el = document.querySelector('h1')
 
