@@ -1,37 +1,37 @@
 * {
-    font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 body {
-    background-color: #DFF1F8;
+  background-color: #dff1f8;
 }
 
 body.darkModeActivate {
-    background-color: #282828;
-    color: #ffff;
+  background-color: #282828;
+  color: #ffff;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    padding-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding-top: 3em;
 }
 
 section {
-    display: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 1em;
-    height: 100%;
+  display: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1em;
+  height: 100%;
 }
 
 .time {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 10rem;
-    font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  font-weight: 300;
 }
